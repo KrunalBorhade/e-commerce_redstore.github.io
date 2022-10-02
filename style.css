@@ -409,6 +409,29 @@ select:focus {
     color: #fff;
 }
 
+#product-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    grid-gap: 3%;
+    margin: auto;
+    margin-top: 2%;
+}
+#product_box{
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#product_img{
+    width: 100%;
+}
+.product_name{
+    text-align: center;
+}
+.product_price{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
 /* ------single product details-------- */
 .single-product {
     margin-top: 80px;
@@ -624,6 +647,7 @@ form a {
     transition: transform 1s;
 
 }
+
 
 
 /* --------media query for less than 600 screen size----- */
