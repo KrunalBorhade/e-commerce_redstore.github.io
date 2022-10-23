@@ -416,6 +416,7 @@ select:focus {
     grid-gap: 3%;
     margin: auto;
     margin-top: 2%;
+    margin-bottom: 10%;
 }
 #product_box{
    
